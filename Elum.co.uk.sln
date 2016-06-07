@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elum.Website", "Elum.Website\Elum.Website.csproj", "{AE8B12C3-DCF4-4EA0-9F5C-A2BBE143E16D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elum.Website.Tests", "Elum.Website.Tests\Elum.Website.Tests.csproj", "{87CD3B9C-65E7-494C-BF5E-DE00D0B18A75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE8B12C3-DCF4-4EA0-9F5C-A2BBE143E16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8B12C3-DCF4-4EA0-9F5C-A2BBE143E16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8B12C3-DCF4-4EA0-9F5C-A2BBE143E16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8B12C3-DCF4-4EA0-9F5C-A2BBE143E16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CD3B9C-65E7-494C-BF5E-DE00D0B18A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CD3B9C-65E7-494C-BF5E-DE00D0B18A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CD3B9C-65E7-494C-BF5E-DE00D0B18A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CD3B9C-65E7-494C-BF5E-DE00D0B18A75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
