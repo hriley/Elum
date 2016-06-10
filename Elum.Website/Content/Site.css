@@ -1,12 +1,19 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿@font-face {
+    font-family: elumFont;
+    src: url(PillGothic300mgRegular.ttf);
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +28,83 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+
+
+/*************************************************************************************/
+ 
+#header {
+}
+
+/* Header */
+.elum-header {
+    font-family: elumFont;
+    font-size: 56pt;
+}
+
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+     padding: 30px 0 0 0
+}
+
+#main {
+    padding: 30px
+}
+
+#footer {
+    font-size: 18pt;
+    font-family: elumFont;
+    text-align: left
+}
+
+#footer ul li {
+    padding: 3px;
+}
+
+#footer li.footer-white a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer li.footer-green a {
+    color: #D2E279;;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #404040;
+    padding: 15px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.footer-left {
+    padding-left: 100px;   
+}
+
+.footer-right {
+    padding-right: 100px;
+
+}
+
+.footer-white {
+    color: white;
+    padding-bottom: 10px !important;
+}
+
+.footer-green {
+    color: #D2E279;
 }
